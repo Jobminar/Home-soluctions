@@ -5,23 +5,38 @@
 }
 .head{
     /* border: 1px solid green; */
-    /* background-color: green; */
-    height: 2rem;
+    height: 3.5rem;
     padding: 1rem 0rem;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    align-items: center;
 }
-.head img{
-    width: 95%;
-    height: 100%;
-    
-    padding-left: 4rem;
-   
+.head-img{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.logo{
+    width: 80%;
+    height: 90%;
+    /* border: 1px solid red; */
+}
+.head-hr{
+    width: 100%;
+    border: none; 
+    height: 2.5px; 
+    background-color: #FFE49F;
+    float: right;
+}
+
 .mainimage{
     margin: 1rem 0rem;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    height: 35rem;
+    height: 30rem;
     
 }
 .mainimage img{

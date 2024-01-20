@@ -22,6 +22,7 @@
     letter-spacing: 0em;
     text-align: left;
     padding: 0.5rem 0rem;
+    color: #FFE49F;
 }
 .content-who{
     width: 70%;
@@ -66,6 +67,7 @@
     line-height: 69px;
     letter-spacing: 0em;
     text-align: right;
+    color: #FFE49F;
 
 }
 .why-choose-us h2{
@@ -75,13 +77,14 @@
     line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
+    color: #FFE49F;
 
 }
 hr{
     width: 50%;
     border: none; 
-    height: 2px; 
-    background-color: black; 
+    height: 3px; 
+    background-color: #FFE49F; 
 }
 .content-wcu{
     font-family: Gothic A1;
@@ -124,14 +127,14 @@ hr{
     line-height: 40px;
     letter-spacing: 0em;
     text-align: right;
-    color: white;
+    color: #FFE49F;
 
 }
 .black-hr{
     width: 50%;
     border: none; 
-    height: 2px; 
-    background-color: white;
+    height: 2.5px; 
+    background-color: #FFE49F;
     float: right;
 }
 .noeffort-content{
@@ -166,6 +169,7 @@ hr{
     line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
+    color: #FFE49F;
 
 }
 .content-huge{
@@ -197,14 +201,14 @@ hr{
     line-height: 40px;
     letter-spacing: 0em;
     text-align: right;
-    color: white;
+    color: #FFE49F;
 
 }
 .black-hr{
     width: 50%;
     border: none; 
-    height: 2px; 
-    background-color: white;
+    height: 2.5px; 
+    background-color: #FFE49F;
     float: right;
 }
 .easyscalable-content{
@@ -271,7 +275,7 @@ grid-template-columns: 49% 2% 49%;
 .vertical-line{
     border: none;
     width: 2px;
-    border-left: 2px solid black; /* Change color, thickness as needed */
+    border-left: 2px solid #FFE49F; /* Change color, thickness as needed */
     height: auto; /* Set height of the line */
     margin: 0;
 }
@@ -399,18 +403,19 @@ grid-template-columns: 49% 2% 49%;
     display: flex;
 
 }
-.whatpeoplesay h1{
+.whatpeoplesay-head h1{
     font-family: Roboto;
     font-size: 58px;
     font-weight: 600;
     line-height: 75px;
     letter-spacing: 0em;
     text-align: left;
+    color: #FFE49F;
 
 }
 .vertical-line {
     border: none;
-    border-left: 2px solid black; /* Adjust thickness here (e.g., 1px) */
+    border-left: 2px solid #FFE49F; /* Adjust thickness here (e.g., 1px) */
     height: auto; /* Set height of the line */
     margin: 0;
     width: 2px;
@@ -425,10 +430,10 @@ grid-template-columns: 49% 2% 49%;
     justify-content: space-between;
   }
   .reviews-sub{
-    width: 25rem;
+    width: 22rem;
     height: auto;
     padding: 1rem;
-    /* border: 1px solid black; */
+    border: 2px solid #FFE49F;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 1px 3.9000000953674316px 0px rgba(0, 0, 0, 0.25);
@@ -475,7 +480,7 @@ grid-template-columns: 49% 2% 49%;
     letter-spacing: 0em;
     text-align: left;
     padding: 2rem;
-    color: white;
+    color: #FFE49F;
 
   }
   .whathappensnext p{

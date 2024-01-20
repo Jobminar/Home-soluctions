@@ -1,6 +1,6 @@
 import Header from "../Header/header"
 import './home.css'
-import enquiry from '../../assets/images/Frame 2.png'
+import enquiry from '../../assets/images/enquire-further-now.png'
 import enquire from '../../assets/images/enquire.png'
 import profile from '../../assets/images/profile.png'
 import enquirefurthernow from '../../assets/images/Frame 18.png'
@@ -9,8 +9,6 @@ import option1 from '../../assets/images/option1.png'
 import option2 from '../../assets/images/option2.png'
 
 const Home=(()=>{
-
-
     return(
         <>
               <div className="home-con">
@@ -207,7 +205,7 @@ const Home=(()=>{
                                 to society, this opportunity is for you.
                                 </p>
                                 <div className="enquiry-further">
-                                    <img  src={enquirefurthernow} alt=""/>
+                                    <img  src={enquiry} alt=""/>
                                 </div>
                             <h2 className="note">
                             Please note: This opportunity is time sensitive.<br/>

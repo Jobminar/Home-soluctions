@@ -1,5 +1,5 @@
 import './header.css'
-import logo from '../../assets/images/Frame 5.png'
+import logo from '../../assets/images/logo.png'
 // import line from '../../assets/images/hrline.png'
 import mainimg from '../../assets/images/Frame 3.png'
 const Header =(()=>{
@@ -7,7 +7,13 @@ const Header =(()=>{
         <>
              <div className="header-con">
                 <div className='head'>
-                    <img src={logo} alt='logo' className='logo'/>
+                   <div className='head-img'>
+                     <img src={logo} alt='logo' className='logo'/>
+                   </div>
+                        
+                         <hr className='head-hr'/>
+                   
+                    
                 </div>
                 <div className='mainimage'>
                       <img src={mainimg} alt='mainimg'/>
