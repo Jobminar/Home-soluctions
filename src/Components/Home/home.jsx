@@ -183,7 +183,7 @@ const Home=(()=>{
                                     <div className="profile-main">
                                        <img src={profile3} alt="profile" className="profileimg"/>     
                                     </div>  
-                                      <h1>Dear Car</h1>  
+                                      <h1>Dear Gill</h1>  
                                                                   
                                   </div>
                                   <p>Homeowners have commended the thoughtful design elements and aesthetic appeal, noting how well the spaces are organized and decorated to create a warm and inviting atmosphere. </p>  
@@ -193,7 +193,7 @@ const Home=(()=>{
                                     <div className="profile-main">
                                        <img src={profile2} alt="profile" className="profileimg"/>     
                                     </div> 
-                                      <h1>Dear Car</h1>  
+                                      <h1>Dear Surya</h1>  
                                                                   
                                   </div>
                                   <p>Beyond the physical attributes, our community has earned acclaim for its responsive management, fostering a sense of belonging and support among residents, creating a positive living experience.</p>  
