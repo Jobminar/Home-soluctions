@@ -1,9 +1,12 @@
 import Header from "../Header/header"
 import './home.css'
 import enquiry from '../../assets/images/enquire-further-now.png'
+import enquiry2 from '../../assets/images/enquire-2.png'
 import enquire from '../../assets/images/enquire.png'
 import profile from '../../assets/images/profile.png'
-import enquirefurthernow from '../../assets/images/Frame 18.png'
+import profile2 from '../../assets/images/profile2.jpg'
+import profile3 from '../../assets/images/profile3.png'
+
 import add from '../../assets/images/Group 5+.png'
 import option1 from '../../assets/images/option1.png'
 import option2 from '../../assets/images/option2.png'
@@ -15,12 +18,12 @@ const Home=(()=>{
                   <Header/>
                   {/* who-choose-you */}
                   <div className="who-choose-you">
-                       <h2>HOME SOLUTIONS</h2>
+                       <h2>Raddaf </h2>
                        <h1>WHO ARE WE</h1>
                        <div className="content-who">
-                           <p>Home Solutions London Inc is a premier real estate services company specializing in sales, letting, and property management With a commitment to excellence, we offer comprehensive solutions for homeowners, tenants, and property investors. Our experienced team leverages industry expertise to facilitate seamless transactions, ensuring satisfaction for all stakeholders. <br/><br/>
+                           <p> Raddaf London Inc is a premier real estate services company specializing in sales, letting, and property management With a commitment to excellence, we offer comprehensive solutions for homeowners, tenants, and property investors. Our experienced team leverages industry expertise to facilitate seamless transactions, ensuring satisfaction for all stakeholders. <br/><br/>
 
-                            Whether buying, selling, or managing properties, Home Solutions London Ind is dedicated to providing top-notch, client-focused services that make real estate experiences efficient and rewarding.</p>
+                            Whether buying, selling, or managing properties, Raddaf London Ind is dedicated to providing top-notch, client-focused services that make real estate experiences efficient and rewarding.</p>
                        </div>
                   </div>
                   <div className="enquiry-further">
@@ -30,7 +33,7 @@ const Home=(()=>{
                      <h1>WHY CHOOSE US</h1>
                      <h2>Guaranteed Rent ‘N’ Tenants</h2>
                      <hr/>
-                     <p className="content-wcu">With home solutions, every investment guarantees a stable income and a secured rental return over a 36-month period. The contractual framework provides not just one, but four layers of financial assurance:</p>
+                     <p className="content-wcu">With  Raddaf, every investment guarantees a stable income and a secured rental return over a 36-month period. The contractual framework provides not just one, but four layers of financial assurance:</p>
                      <ol className="list-wcu">
                       <li>ACCA Managed Payments</li>
                       <li>Year Secured Lease</li>
@@ -46,7 +49,7 @@ const Home=(()=>{
                     <h2>No effort Investment</h2>
                     <hr className="black-hr"/>
                     <div className="noeffort-content">
-                        <p>In contrast to a typical rental arrangement, the responsibility of overseeing tenants and property maintenance is completely lifted off your shoulders in home solutions.</p>
+                        <p>In contrast to a typical rental arrangement, the responsibility of overseeing tenants and property maintenance is completely lifted off your shoulders in raddaf.</p>
                         <p>All these tasks are taken care of independently. You won't find yourself addressing noise complaints or receiving early morning calls due to a malfunctioning boiler.</p>
                         <p> After making an investment, your sole task is to enjoy a consistent monthly income with peace of mind, knowing that you're actively contributing to providing deserving families with the shelter they need.</p>
                     </div>
@@ -56,7 +59,7 @@ const Home=(()=>{
                   <div className="huge-yeilds">
                      <h2>Huge Yields</h2>
                      <hr/>
-                     <p className="content-huge">When it comes to home solutions, traditional renting leaves you reliant on mere "hope" to attain the anticipated returns on your investment. Various uncertainties, such as tenant vacancies, rent defaults, or property problems, can arise.</p>
+                     <p className="content-huge">When it comes to raddaf, traditional renting leaves you reliant on mere "hope" to attain the anticipated returns on your investment. Various uncertainties, such as tenant vacancies, rent defaults, or property problems, can arise.</p>
                      <p className="content-huge">In contrast, when engaging in assisted living contracts, you won't encounter any of these concerns. Explore the assured yields offered over the three-year contracts:</p>                
                     
                  
@@ -166,7 +169,10 @@ const Home=(()=>{
                         <div className="reviews">
                              <div className="reviews-sub">
                                   <div className="reviews-sub-head">
-                                      <img src={profile} alt="profile" className="profileimg"/>     
+                                    <div className="profile-main">
+                                       <img src={profile} alt="profile" className="profileimg"/>     
+                                    </div>
+                                      
                                       <h1>Dear Car</h1>  
                                                                   
                                   </div>
@@ -174,19 +180,23 @@ const Home=(()=>{
                              </div>
                              <div className="reviews-sub">
                                   <div className="reviews-sub-head">
-                                      <img src={profile} alt="profile" className="profileimg"/>     
+                                    <div className="profile-main">
+                                       <img src={profile3} alt="profile" className="profileimg"/>     
+                                    </div>  
                                       <h1>Dear Car</h1>  
                                                                   
                                   </div>
-                                  <p>I have been working with UPG for just over 6 months now and I must say the experience is first class! The communication from the team is brilliant, each stage of the process runs seamlesly and they are indeed unique at what they deliver. </p>  
+                                  <p>Homeowners have commended the thoughtful design elements and aesthetic appeal, noting how well the spaces are organized and decorated to create a warm and inviting atmosphere. </p>  
                              </div>
                              <div className="reviews-sub">
                                   <div className="reviews-sub-head">
-                                      <img src={profile} alt="profile" className="profileimg"/>     
+                                    <div className="profile-main">
+                                       <img src={profile2} alt="profile" className="profileimg"/>     
+                                    </div> 
                                       <h1>Dear Car</h1>  
                                                                   
                                   </div>
-                                  <p>I have been working with UPG for just over 6 months now and I must say the experience is first class! The communication from the team is brilliant, each stage of the process runs seamlesly and they are indeed unique at what they deliver. </p>  
+                                  <p>Beyond the physical attributes, our community has earned acclaim for its responsive management, fostering a sense of belonging and support among residents, creating a positive living experience.</p>  
                              </div>
                         </div>
                           
@@ -197,7 +207,7 @@ const Home=(()=>{
                          <h1>What Happens Next?</h1>
                          <p>Upon clicking the "Inquire Further Now" button, you will be prompted to complete a brief form containing your particulars.
 
-                                This will enable one of our team members to directly reach out to you for a comprehensive discussion on the home solutions opportunity and assess your suitability.<br/>
+                                This will enable one of our team members to directly reach out to you for a comprehensive discussion on the raddaf opportunity and assess your suitability.<br/>
 
                                 This chance is accessible to individuals with the financial means to seize it.
 
@@ -205,7 +215,7 @@ const Home=(()=>{
                                 to society, this opportunity is for you.
                                 </p>
                                 <div className="enquiry-further">
-                                    <img  src={enquiry} alt=""/>
+                                    <img  src={enquiry2} alt=""/>
                                 </div>
                             <h2 className="note">
                             Please note: This opportunity is time sensitive.<br/>
@@ -250,7 +260,7 @@ const Home=(()=>{
                     {/* footer */}
 
                     <div className="footer">
-                        <p>Copyright © 2023 Home Solutions – All Rights Reserved.</p>
+                        <p>Copyright © 2023 Raddaf – All Rights Reserved.</p>
                     </div>
                   
                   
